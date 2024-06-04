@@ -16,7 +16,7 @@ export const handlers = [
     }
   ),
 
-  http.delete(`${API_ENDPOINTS.CART}/:id}`, () => {
+  http.delete(`${API_ENDPOINTS.CART}/:id`, () => {
     return HttpResponse.json(null, { status: 204 });
   }),
 ];
